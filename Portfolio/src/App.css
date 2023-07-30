@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  z-index: 1;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: lightblue;
+  z-index: 2;
+}
