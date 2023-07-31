@@ -8,17 +8,17 @@
   "interactivity": {
       "events": {
           "onClick": {
-              "enable": false,
+              "enable": true,
               "mode": "push"
           },
           "onDiv": {
               "elementId": "repulse-div",
-              "enable": false,
+              "enable": true,
               "mode": "repulse"
           },
           "onHover": {
               "enable": true,
-              "mode": "push",
+              "mode": "repulse",
               "parallax": {
                   "enable": false,
                   "force": 2,
@@ -49,14 +49,14 @@
               }
           },
           "push": {
-              "quantity": 4
+              "quantity": 15
           },
           "remove": {
               "quantity": 2
           },
           "repulse": {
               "distance": 50,
-              "duration": 0.4
+              "duration": 0.1
           },
           "slow": {
               "active": false,

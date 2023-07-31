@@ -1,19 +1,24 @@
-import { useState } from 'react'
-import Background from './components/Background'
-import './App.css'
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AnimatePresence } from 'framer-motion';
+import Background from './components/Background';
+import Homepage from './components/Homepage';
+import Welcomepage from './components/Welcomepage';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <Background/>
-    <div className='title'>
-    <h1>Hello World</h1>
-    </div>
-   
+      <Background />
+      <Router>
+          <Routes>
+            <Route path="/" element={<Welcomepage />} />
+            <Route path="/home" element={<Homepage />} />
+          </Routes>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

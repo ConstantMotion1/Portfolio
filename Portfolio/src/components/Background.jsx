@@ -1,6 +1,5 @@
 import React from 'react'
 import Particles from 'react-tsparticles';
-import ParticleConfig from '../assets/configs/ParticleConfig';
 import { loadFull } from "tsparticles";
 import config from '../assets/configs/particles.json'
 
