@@ -56,7 +56,7 @@
           },
           "repulse": {
               "distance": 50,
-              "duration": 0.1
+              "duration": 0.3
           },
           "slow": {
               "active": false,
